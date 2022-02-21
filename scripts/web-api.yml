@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  tk-app:
+    container_name: tk-app
+    image: tk-app:latest
+    restart: unless-stopped
+    build:
+      context: ../
+      dockerfile: TimeKeeper.WebApi/Dockerfile
+    ports:
+      - "9000:80"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "development"
+      CONNECTIONSTRINGS__LOCALDATABASE: "Server=tk-app-db,1433;Database=TimeKeeperAppDb;User Id=SA;Password=VerySecurePassword321;"

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Domain", "TimeKeeper.Domain\TimeKeeper.Domain.csproj", "{44FD7268-6B79-4189-8A5A-DCAACD5B1E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Persistence", "TimeKeeper.Persistence\TimeKeeper.Persistence.csproj", "{E49DD59D-DBF6-404D-BB37-28EF022A3AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Runner", "TimeKeeper.Runner\TimeKeeper.Runner.csproj", "{0BF2740F-B3D5-4BB3-9E7A-C32FDB753A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.Business", "TimeKeeper.Business\TimeKeeper.Business.csproj", "{AB80BA25-E4C8-4AC3-BB8B-823B134EF0A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeper.WebApi", "TimeKeeper.WebApi\TimeKeeper.WebApi.csproj", "{682EF1FC-7C59-4675-B1E4-18949E52AEFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44FD7268-6B79-4189-8A5A-DCAACD5B1E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FD7268-6B79-4189-8A5A-DCAACD5B1E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FD7268-6B79-4189-8A5A-DCAACD5B1E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FD7268-6B79-4189-8A5A-DCAACD5B1E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49DD59D-DBF6-404D-BB37-28EF022A3AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49DD59D-DBF6-404D-BB37-28EF022A3AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49DD59D-DBF6-404D-BB37-28EF022A3AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49DD59D-DBF6-404D-BB37-28EF022A3AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF2740F-B3D5-4BB3-9E7A-C32FDB753A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF2740F-B3D5-4BB3-9E7A-C32FDB753A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF2740F-B3D5-4BB3-9E7A-C32FDB753A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF2740F-B3D5-4BB3-9E7A-C32FDB753A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB80BA25-E4C8-4AC3-BB8B-823B134EF0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB80BA25-E4C8-4AC3-BB8B-823B134EF0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB80BA25-E4C8-4AC3-BB8B-823B134EF0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB80BA25-E4C8-4AC3-BB8B-823B134EF0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682EF1FC-7C59-4675-B1E4-18949E52AEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682EF1FC-7C59-4675-B1E4-18949E52AEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682EF1FC-7C59-4675-B1E4-18949E52AEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682EF1FC-7C59-4675-B1E4-18949E52AEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
